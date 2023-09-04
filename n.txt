@@ -1,0 +1,58 @@
+1. Client Side Coding (Browser) (Front End)
+Browser Only Support JS.
+JavaScript 
+a) Dynamically Typed Language
+b) Client Side, Inbuild Runtime Env inside the Browser.
+var a;
+a=10;
+a=true;
+a="Amit";
+c) JS - Chrome has V8 Engine to Run JS.
+d) Functions are No-1 Citizen in JS. JS Functional Programming Language.
+i) Function can have nested Functions
+ii) Function can have Function as an argument
+iii) Function can return Function
+iv) Function is a data type.
+
+
+7 DataTypes in JS
+Value Type / Primitive Type / Immutable Type
+a) undefined
+b) number Success - (0-9) , Decimal, (Error)Infinity, NaN
+Helper Functions : isNaN, isFinite
+c) string  - "" ,'', `` (MultiLine)
+d) boolean - true (1), false (0)
+e) bigint
+f) Symbol (ES6) (Rare to use)
+g) null
+
+Reference Type / Mutable Type
+Object (Reference) = Data + Methods + Property
+a) Array
+
+Coercion = Implicit + Explicit  
+TypeCasting 
+Implicit TypeCasting
+a) String + String = String
+b) String + Number = String
+c) String + Boolean= String
+d) Number + undefined = Number
+e) undefined + undefined = Number
+f) Number + Boolean = Number
+g) Boolean + Boolean = Number
+
+
+Explicit TypeCasting
+parseInt, parseFloat
+
+JavaScript / ES (ECMA Script)
+ES6 - 2015
+ES7- 2016
+ES8 - 2017
+
+2023- ES13
+
+Statically Typed Language / Compile Time 
+e.g int a = 10;
+double w = 90.20;
+var a=10; // int a = 10; Type Inference
