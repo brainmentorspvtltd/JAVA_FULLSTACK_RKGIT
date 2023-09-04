@@ -1,0 +1,167 @@
+var a;
+undefined
+typeof a;
+'undefined'
+a = 100;
+100
+typeof a;
+'number'
+a=1;
+1
+typeof a;
+'number'
+a=111111111111111;
+111111111111111
+a=10.20;
+10.2
+typeof a;
+'number'
+a=10/0;
+Infinity
+a;
+Infinity
+isFinite(a);
+false
+isFinite(a)?a:0;
+0
+typeof a;
+'number'
+a=1;
+1
+typeof a;
+'number'
+a=10 + undefined;
+NaN
+typeof a;
+'number'
+a;
+NaN
+isNaN(a);
+true
+isNaN(a)?0:a;
+0
+a= "Amit";
+'Amit'
+typeof a;
+'string'
+a='Amit';
+'Amit'
+typeof a;
+'string'
+a='A';
+'A'
+typeof a;
+'string'
+a=`jkdshkgjdfjkgh
+gdfjghjk
+ghdjkghjkdf
+gdhj`;
+'jkdshkgjdfjkgh\ngdfjghjk\nghdjkghjkdf\ngdhj'
+console.log(a);
+VM677:1 jkdshkgjdfjkgh
+gdfjghjk
+ghdjkghjkdf
+gdhj
+undefined
+var a= 10;
+undefined
+window;
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+typeof window;
+'object'
+window instanceof Window;
+true
+typeof Window;
+'function'
+var a = 10;
+undefined
+var b = 20;
+undefined
+"A is "+a+" B is "+b+" Sum is "+(a+b);
+'A is 10 B is 20 Sum is 30'
+`A is ${a} B is ${b} Sum is ${a+b}`
+'A is 10 B is 20 Sum is 30'
+var att = true;
+undefined
+typeof att;
+'boolean'
+att + 10;
+11
+10 + "10";
+'1010'
+10 + parseInt("10");
+20
+a=100000000000000000000000000000;
+1e+29
+typeof a;
+'number'
+Number.isSafeInteger(a);
+false
+var t  =Number.MAX_SAFE_INTEGER;
+undefined
+t;
+9007199254740991
+++t;
+9007199254740992
+++t;
+9007199254740992
+++t;
+9007199254740992
+++t;
+9007199254740992
+typeof a;
+'number'
+var t2 = 9007199254740992n;
+undefined
+typeof t2;
+'bigint'
+++t2;
+9007199254740993n
+++t2;
+9007199254740994n
+++t2;
+9007199254740995n
+++t2;
+9007199254740996n
+++t2;
+9007199254740997n
+t2 + 54645645646456n;
+9061844900387453n
+t2 + 243432453;
+VM1718:1 Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at <anonymous>:1:4
+(anonymous) @ VM1718:1
+var input = "54435643645645654654654";
+undefined
+var g = BigInt(input);
+undefined
+g;
+54435643645645654654654n
+var q = Symbol();
+undefined
+typeof q;
+'symbol'
+q;
+Symbol()
+Symbol() == Symbol();
+false
+var arr= [10,20,30,40];
+undefined
+typeof arr;
+'object'
+arr.length;
+4
+arr = null;
+null
+arr;
+null
+typeof arr;
+'object'
+var a= 10;
+undefined
+a + 20
+30
+a;
+10
+a = a + 20;
+30
